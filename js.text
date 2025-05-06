@@ -1,0 +1,37 @@
+javascript is a scripting langauge
+
+Benifits 
+1. js provides end-to-end development frontend and backend
+2. js is lightweight langauge
+
+what we can do using js
+- Manupulate HTML pages
+- Validation
+- Data handle
+- Event management
+- Backend data loading
+- Server management
+
+Limitation
+- Reading/writing files - in js (security)
+- Networking app - no support in js
+- Multithreading/concept is not in js
+
+
+show/hide element
+- change styling by providing different css properties
+-  we can provide text to elements
+- we can change the class/src/href in the element
+
+How to run js
+- Broweser (we don't need anything specific to run javascript)
+- Terminal (By using/installing Nodejs)-  nodejs in your local maching to run js file in terminal
+
+
+(GEC)Execuation context and  (FEC)functional context
+
+
+
+
+
+
