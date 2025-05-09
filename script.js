@@ -145,7 +145,7 @@ const mobile = {
 // this is not preferable its slow bcoz of constructor
 
 const arr = [1, 2, 3, 4, 5, 6, undefined, false, true];
-// const arr4 = [89, 45, undefined, false, true, "zoom"];
+const arr4 = [89, 45, undefined, false, true, "zoom"];
 // console.log(arr.toString());
 
 // Join
@@ -164,8 +164,16 @@ const arr = [1, 2, 3, 4, 5, 6, undefined, false, true];
 // console.log(arr);
 
 // splice - add new element into array at any specific index
+// console.log(arr);
+// arr.splice(1, 0, "tata", "chevrolet");
+// // arr.splice(starting index, delete count, ["tata", "chevrolet"]);
+// console.log(arr);
 
-console.log(arr);
-arr.splice(1, 0, "tata", "chevrolet");
-// arr.splice(starting index, delete count, ["tata", "chevrolet"]);
-console.log(arr);
+// concat()-  concat 2 diff array
+let arr3 = arr.concat(arr4);
+
+console.log(arr3);
+
+// Slice - recreate any array from the existing array
+// const slicearray = arr3.slice(2, 9);
+console.log(arr3.slice(2, 9));
